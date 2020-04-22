@@ -1,4 +1,4 @@
-package br.com.munif.treinamento.oo.streams;
+﻿package br.com.munif.treinamento.oo.streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,8 @@ import java.util.List;
 
 public class Programa {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+        {
 		System.out.println("Inicio de Streams");
 		List<Nome> nomes = nomesFrequentes();
 		System.out.println("Primeiro " + primeiro(nomes));
